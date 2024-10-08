@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fjalla+One&family=Orbitron:wght@400..900&family=Sixtyfour+Convergence&family=Spicy+Rice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Orbitron:wght@400..900&family=Sixtyfour+Convergence&family=Spicy+Rice&display=swap');
+*{
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.todo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #141E30;
+  background: -webkit-linear-gradient(to right, #243B55, #141E30);
+  background: linear-gradient(to right, #243B55, #141E30);
+  padding: 20px;
+}
+
+.todo-wrapper {
+  background: #141E30;
+  background: -webkit-linear-gradient(to right, #243B55, #141E30);
+  background: linear-gradient(to right, #243B55, #141E30);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  margin-bottom: 20px;
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 35px;
+}
+
+.todo-form {
+  display: flex;
+  margin-bottom: 20px;
+  gap: 130px;
+}
+
+.todo-form button{
+  background-color: #4076b5;
+  border: none;
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 20px;
+}
+
+.todo-input {
+  flex-grow: 1;
+  border: 1px solid #647b96;
+  border-radius: 5px;
+  padding: 10px;
+  width: 290px;
+  background: #2d3b56;
+  color: white;
+  outline: none;
+}
+
+.todo-btn-add {
+  border: none;
+  padding: 10px 20px;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  color: white;
+}
+
+.todo-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  /* border: 1px solid #666; */
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #647b96;
+}
+
+.todo-completed {
+  background-color: #1f2f42;
+}
+
+.todo-checkbox {
+  margin-right: 10px;
+}
+
+.todo-text {
+  flex-grow: 1;
+  border: none;
+  background-color: transparent;
+  color: white;
+  outline: none;
+  font-size: 20px;
+}
+
+.editable {
+  border: 1px solid #fff;
+  background-color: #555;
+  padding: 5px;
+}
+
+.completed-text {
+  text-decoration: line-through;
+}
+
+.todo-btn {
+  background: #141E30;
+  border: 1px solid #000;
+  border-radius: 5px;
+  padding: 5px;
+  margin-left: 5px;
+  cursor: pointer;
+}
